@@ -19,4 +19,4 @@ request(`https://github.com/${nickzinhu}`, (error, res, body) => {
 	})
 }
 
-setInterval(() => letrinhas(), 3500)
+setInterval(() => letrinhas(), 4500)
