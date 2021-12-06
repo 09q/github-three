@@ -12,7 +12,7 @@ function letrinhas() {
 request(`https://github.com/${nickzinhu}`, (error, res, body) => {
 	//console.log(body)
 	if(res.statusCode == 200) {
-		console.log('[.]'.brightBlue + ` ${nickzinhu} Unavailable`.grey)
+		console.log('[.]'.brightBlue + ` ${nickzinhu} Unavailable`.grey) // :dddd
 	} else {
 		console.log('[+]'.brightGreen + ` ${nickzinhu} Available - [ github.com/${nickzinhu} ]`.white)
 	}
